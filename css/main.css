@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C4C4C4;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.first__section {
+    margin-left: -99px;
+    margin-top: 50px;
+    background-color: #fff;
+    width: 260px; 
+    padding-right: 10px;  
+}
+
+.out {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.blocks h3 {
+    text-align: center;
+}
+
+
+.block__content {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.from input {
+    margin: 30px 30px;
+}
+
+.from__to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.pos-one{
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.pos-two {
+    position: absolute;
+    top: 10px;
+    left: 185px;
+}
+
+.to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.to input {
+    margin: 30px 30px;
+}
+
+.to__to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: none;
+    background-color: #573333;
+    color: #fff;
+    padding: 20px 150px;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 30px;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    background-color: #6A48D7;
+    transition: all .5s ease-out;
+}
